@@ -1,0 +1,76 @@
+html {
+    border: dashed 0px red;
+}
+head {
+    border: dotted 0px green;
+    height: 100%;
+}
+body {
+    border: double 0px blue;
+    height: 100%;
+}
+#header1 {
+    border: groove 0px green;
+    background-image: url("https://images.unsplash.com/photo-1440635592348-167b1b30296f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=370477211fd6605e597e0d1e9534d99e");
+    background-size: cover;
+    height: 100vh;
+}
+#container-fluid1 {
+    border: dashed orange 0px;
+    height: 100%;
+}
+#container1 {
+    border: solid yellow 0px;
+    height: 100%;
+    position: relative;
+}
+#container1 .sayings {
+    position: relative;
+    border: dashed 0px red;
+    height: 60%;
+    margin-top: -35px;
+}
+body #container1 h1 {
+    color: green;
+    font-size: 45px;
+    border: groove 0px black;
+    font-family: serif;
+    text-align: center;
+    margin-top: 60px;
+}
+body #container1 #quote {
+    color: white;
+    font-size: 25px;
+    border: dotted 0px black;
+    font-family: serif;
+    text-align: center;
+    width: 800px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+}
+body #container1 #author {
+    color: white;
+    font-size: 25px;
+    border: dotted 0px black;
+    font-family: serif;
+    text-align: center;
+    width: 800px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+}
+body #container1 #changebutton {
+    position: absolute;
+    left: 38%;
+    top: 70%;
+    
+}
+body #container1 #tweetbutton {
+    position: absolute;
+    left: 52%;
+    top: 70%;
+    
+}
